@@ -3,6 +3,11 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+
+  //==============================================================//
+ //                             PART 1                           //
+//==============================================================//
+
 $animals = ['panda', 'alpaca', 'boa'];
 
 function sortAndPrintAnimals($animals)
@@ -42,3 +47,21 @@ sortAndPrintAnimals($animals);
 addAnimal('Alpaca', $animals);
 
 sortAndPrintAnimals($animals);
+
+
+  //==============================================================//
+ //                             PART 2                           //
+//==============================================================//
+
+
+$flavors =  
+[
+    'grasshopper' => 'The Grasshopper',
+    'maple'       => 'Whiskey Maple Bacon',
+    'carrot'      => 'Carrot Walnut',
+    'caramel'     => 'Salted Caramel Cupcake',
+    'velvet'      => 'Red Velvet',
+    'lemon'       => 'Lemon Drop',
+    'tiramisu'    => 'Tiramisu'
+];
+
