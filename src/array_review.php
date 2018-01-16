@@ -16,3 +16,13 @@ function sortAndPrintAnimals($animals)
 
     echo "<br />";
 }
+
+function addAnimal($newAnimal, &$animals)
+{
+    $searchArray = array_map('strtolower', $animals);
+
+    if(in_array(strtolower($newAnimal), $searchArray));
+}
+
+
+sortAndPrintAnimals($animals);
